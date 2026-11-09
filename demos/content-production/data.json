@@ -1,0 +1,2973 @@
+{
+  "snapshot_at": "2026-11-07T04:58:47.720917+00:00",
+  "script": {
+    "id": "CASE-S01",
+    "title": "第七个花盆后的醋",
+    "date": "2026-11-03T09:12:25.638402Z",
+    "mode": "RANDOM",
+    "strategy": "AB",
+    "targets": [
+      {
+        "id": "A",
+        "word": "vinegar",
+        "meaning": "醋"
+      },
+      {
+        "id": "B",
+        "word": "seven",
+        "meaning": "七"
+      }
+    ],
+    "plan": {
+      "character_goal": "角色A要在野餐会前找到丢失的醋，角色B要帮他按线索准确找到醋瓶。",
+      "core_problem": "角色A弄丢了醋，需要在野餐会前从七个可能的藏点里找到真正的醋瓶。",
+      "inciting_event": "角色A被小石子绊倒，醋瓶滚进七个花盆附近，他分不清哪一个藏点才是醋。",
+      "resolution_mechanism": "角色B带领角色A按七个花盆的顺序逐个排查，通过气味线索在第七个花盆后找到醋瓶。",
+      "story_beats": [
+        "角色A抱着七瓶调料走向院子，准备去野餐会，其中一瓶是醋。",
+        "角色A被小石子绊倒，醋瓶滚出去，混进七个花盆附近的藏点里。",
+        "角色A着急地乱找，把花盆碰得东倒西歪，还是没找到醋。",
+        "角色B赶来，提议按七个花盆从一到七逐个检查。",
+        "他们检查第一个到第六个花盆，都只找到别的调料瓶。",
+        "数到第七个花盆时，角色B闻到酸酸的味道，发现花盆后面有醋瓶。",
+        "角色A拿出醋，和角色B一起去野餐会，和配角分享凉拌菜。"
+      ],
+      "target_arc_plan": [
+        {
+          "development": "角色A赶路时摔了一跤，醋瓶滚进院子的七个小角落，他分不清哪一个才是醋。",
+          "payoff": "角色B靠线索找到醋瓶，大家用醋调出美味凉拌菜，确认第七个藏点的就是醋。",
+          "setup": "角色A准备了七瓶不同颜色的调味瓶，其中一瓶是醋，要带去野餐会做凉拌菜。",
+          "word_id": "W0908"
+        },
+        {
+          "development": "醋瓶不见后，大家数着七个花盆一个个找，每检查一个就数一个数。",
+          "payoff": "数到第七个花盆后面，终于找到醋瓶，孩子们能清楚看见数字七与藏点的对应。",
+          "setup": "院子里有七个排成一排的小花盆，角色A把七瓶调料分别放在七个花盆旁边。",
+          "word_id": "W0275"
+        }
+      ],
+      "target_word_payoff": "孩子们能清楚看到醋（vinegar）作为被寻找的关键物品，以及数字七（seven）对应第七个花盆的藏点，两个目标词都有明确的视觉落点和情节作用。"
+    },
+    "versions": {
+      "R0": {
+        "title": {
+          "chinese": "第七个花盆后的醋",
+          "english": "The Vinegar Behind the Seventh Flower Pot"
+        },
+        "summary": "角色A抱着调料去野餐，其中一瓶是醋，院子里摆着七个花盆。他被小石子绊倒，醋瓶滚进花盆附近找不到了。角色B提议按七个花盆逐个排查，前六个都不是，数到第七个时闻到酸味，终于在第七个花盆后面找到了醋，大家开心地分享凉拌菜。",
+        "logline": "角色A弄丢了要带去野餐的醋，角色B和他一起沿着七个花盆找线索，最后在第七个花盆后面发现醋瓶。",
+        "objective": "让孩子在寻找物品的情节中理解醋（vinegar）和数字七（seven）的含义，并学习按线索一步步寻找的方法。",
+        "revision": "R0",
+        "metrics": {
+          "beat_count": 6,
+          "dialogue_line_count": 12,
+          "duration_estimation_method": "TEXT_ESTIMATE_V1",
+          "english_dialogue_word_count": 73,
+          "estimated_duration_seconds": 79,
+          "max_sentence_word_count": 9,
+          "scene_count": 2,
+          "target_occurrence_counting_rule": "TARGET_OCCURRENCE_V1_1",
+          "target_occurrences": {
+            "W0275": {
+              "accepted_form_count": 6,
+              "base_form_count": 6
+            },
+            "W0908": {
+              "accepted_form_count": 6,
+              "base_form_count": 6
+            }
+          },
+          "unassigned_occurrence_count": 0
+        },
+        "arc": [
+          {
+            "development_beat_ids": [
+              "B02",
+              "B03"
+            ],
+            "payoff_beat_ids": [
+              "B05",
+              "B06"
+            ],
+            "setup_beat_ids": [
+              "B01"
+            ],
+            "word_id": "W0908"
+          },
+          {
+            "development_beat_ids": [
+              "B02",
+              "B03"
+            ],
+            "payoff_beat_ids": [
+              "B04",
+              "B05"
+            ],
+            "setup_beat_ids": [
+              "B01"
+            ],
+            "word_id": "W0275"
+          }
+        ],
+        "scenes": [
+          {
+            "scene_id": "S01",
+            "scene_name_zh": "院子里的七个花盆",
+            "location_zh": "小院花径",
+            "visual_overview_zh": "阳光明媚的小院里，一排七个小花盆整齐摆着，角色A抱着几瓶调料匆匆走过，角色B跟在旁边。",
+            "beats": [
+              {
+                "beat_id": "B01",
+                "visual_action_zh": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。",
+                "emotion_zh": "开心期待",
+                "relation_to_previous_zh": "故事开场，介绍地点和道具。",
+                "lines": [
+                  {
+                    "line_id": "L01",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "One, two, seven flower pots here.",
+                    "text_zh": "一、二，这里有七个花盆。",
+                    "performance_note_zh": "尾巴一翘一翘，认真数花盆。"
+                  },
+                  {
+                    "line_id": "L02",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "I have vinegar for our picnic.",
+                    "text_zh": "我带了醋，我们野餐用。",
+                    "performance_note_zh": "举着一瓶醋，笑眯眯地展示。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B02",
+                "visual_action_zh": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。",
+                "emotion_zh": "慌张着急",
+                "relation_to_previous_zh": "承接上一拍，意外发生，醋不见了。",
+                "lines": [
+                  {
+                    "line_id": "L03",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "Oh no, where is my vinegar?",
+                    "text_zh": "糟了，我的醋去哪儿了？",
+                    "performance_note_zh": "趴在地上，鼻子皱成一团。"
+                  },
+                  {
+                    "line_id": "L04",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "It rolled near the seven pots.",
+                    "text_zh": "它滚到那七个花盆附近了。",
+                    "performance_note_zh": "瞪大眼睛，看向七个花盆。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B03",
+                "visual_action_zh": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。",
+                "emotion_zh": "慌乱懊恼",
+                "relation_to_previous_zh": "承接丢醋的意外，角色A乱找一通。",
+                "lines": [
+                  {
+                    "line_id": "L05",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "This is not vinegar at all.",
+                    "text_zh": "这根本不是醋啊。",
+                    "performance_note_zh": "抱着一瓶酱油，皱鼻子摇头。"
+                  },
+                  {
+                    "line_id": "L06",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Let us check the seven pots one by one.",
+                    "text_zh": "我们按七个花盆一个个找吧。",
+                    "performance_note_zh": "叉着腰，认真想办法。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "scene_id": "S02",
+            "scene_name_zh": "第七个花盆的线索",
+            "location_zh": "小院花径尽头",
+            "visual_overview_zh": "角色A和角色B挨个检查花盆，前六个后面都是别的调料，最后来到第七个花盆前，空气中飘着酸酸的味道。",
+            "beats": [
+              {
+                "beat_id": "B04",
+                "visual_action_zh": "他们走到第七个花盆前，角色B鼻子动了动，闻到酸味。",
+                "emotion_zh": "惊喜专注",
+                "relation_to_previous_zh": "承接逐个排查，来到第七个花盆。",
+                "lines": [
+                  {
+                    "line_id": "L07",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "This is pot number seven.",
+                    "text_zh": "这是第七个花盆啦。",
+                    "performance_note_zh": "眯起眼睛，鼻子轻轻嗅。"
+                  },
+                  {
+                    "line_id": "L08",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "I smell something sour, like vinegar.",
+                    "text_zh": "我闻到酸酸的味道，像醋。",
+                    "performance_note_zh": "凑过去也闻了闻，眼睛亮了。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B05",
+                "visual_action_zh": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。",
+                "emotion_zh": "开心得意",
+                "relation_to_previous_zh": "承接闻到酸味，揭晓醋的位置。",
+                "lines": [
+                  {
+                    "line_id": "L09",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Look! Here is your vinegar!",
+                    "text_zh": "你看！你的醋在这儿！",
+                    "performance_note_zh": "尾巴翘得高高的，指着醋瓶。"
+                  },
+                  {
+                    "line_id": "L10",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "Seven pots led us right to it!",
+                    "text_zh": "七个花盆带我们找到它啦！",
+                    "performance_note_zh": "蹦起来拍手，耳朵晃呀晃。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B06",
+                "visual_action_zh": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。",
+                "emotion_zh": "满足欢乐",
+                "relation_to_previous_zh": "承接找到醋，来到野餐分享的结尾。",
+                "lines": [
+                  {
+                    "line_id": "L11",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "配角",
+                    "text_en": "The salad tastes great with vinegar.",
+                    "text_zh": "加了醋的凉拌菜真好吃。",
+                    "performance_note_zh": "捧着大碗，眼睛亮晶晶。"
+                  },
+                  {
+                    "line_id": "L12",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Seven pots, one clever find.",
+                    "text_zh": "七个花盆，一次聪明的发现。",
+                    "performance_note_zh": "得意地竖起一根手指。"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "R1": {
+        "title": {
+          "chinese": "第七个花盆后的醋",
+          "english": "The Vinegar Behind the Seventh Flower Pot"
+        },
+        "summary": "角色A抱着调料去野餐，其中一瓶是醋，院子里摆着七个花盆。他被小石子绊倒，醋瓶滚进花盆附近找不到了。角色B提议按七个花盆逐个排查，前六个都不是，数到第七个时闻到酸味，终于在第七个花盆后面找到了醋，大家开心地分享凉拌菜。",
+        "logline": "角色A弄丢了要带去野餐的醋，角色B和他一起沿着七个花盆找线索，最后在第七个花盆后面发现醋瓶。",
+        "objective": "让孩子在寻找物品的情节中理解醋（vinegar）和数字七（seven）的含义，并学习按线索一步步寻找的方法。",
+        "revision": "R1",
+        "metrics": {
+          "beat_count": 6,
+          "dialogue_line_count": 12,
+          "duration_estimation_method": "TEXT_ESTIMATE_V1",
+          "english_dialogue_word_count": 73,
+          "estimated_duration_seconds": 79,
+          "max_sentence_word_count": 9,
+          "scene_count": 2,
+          "target_occurrence_counting_rule": "TARGET_OCCURRENCE_V1_1",
+          "target_occurrences": {
+            "W0275": {
+              "accepted_form_count": 6,
+              "base_form_count": 6
+            },
+            "W0908": {
+              "accepted_form_count": 6,
+              "base_form_count": 6
+            }
+          },
+          "unassigned_occurrence_count": 0
+        },
+        "arc": [
+          {
+            "development_beat_ids": [
+              "B02",
+              "B03"
+            ],
+            "payoff_beat_ids": [
+              "B05",
+              "B06"
+            ],
+            "setup_beat_ids": [
+              "B01"
+            ],
+            "word_id": "W0908"
+          },
+          {
+            "development_beat_ids": [
+              "B02",
+              "B03"
+            ],
+            "payoff_beat_ids": [
+              "B04",
+              "B05"
+            ],
+            "setup_beat_ids": [
+              "B01"
+            ],
+            "word_id": "W0275"
+          }
+        ],
+        "scenes": [
+          {
+            "scene_id": "S01",
+            "scene_name_zh": "院子里的七个花盆",
+            "location_zh": "小院花径",
+            "visual_overview_zh": "阳光明媚的小院里，青石板铺成的花径旁摆着一排七个小花盆，盆沿沾着细碎的阳光，地面散落着几片被风吹落的花瓣；角色A抱着几瓶调料匆匆走过，角色B跟在旁边。",
+            "beats": [
+              {
+                "beat_id": "B01",
+                "visual_action_zh": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。",
+                "emotion_zh": "开心期待",
+                "relation_to_previous_zh": "故事开场，介绍地点和道具。",
+                "lines": [
+                  {
+                    "line_id": "L01",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "One, two, seven flower pots here.",
+                    "text_zh": "一、二，这里有七个花盆。",
+                    "performance_note_zh": "尾巴一翘一翘，认真数花盆。"
+                  },
+                  {
+                    "line_id": "L02",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "I have vinegar for our picnic.",
+                    "text_zh": "我带了醋，我们野餐用。",
+                    "performance_note_zh": "举着一瓶醋，笑眯眯地展示。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B02",
+                "visual_action_zh": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。",
+                "emotion_zh": "慌张着急",
+                "relation_to_previous_zh": "承接上一拍，意外发生，醋不见了。",
+                "lines": [
+                  {
+                    "line_id": "L03",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "Oh no, where is my vinegar?",
+                    "text_zh": "糟了，我的醋去哪儿了？",
+                    "performance_note_zh": "趴在地上，鼻子皱成一团。"
+                  },
+                  {
+                    "line_id": "L04",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "It rolled near the seven pots.",
+                    "text_zh": "它滚到那七个花盆附近了。",
+                    "performance_note_zh": "瞪大眼睛，看向七个花盆。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B03",
+                "visual_action_zh": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。",
+                "emotion_zh": "慌乱懊恼",
+                "relation_to_previous_zh": "承接丢醋的意外，角色A乱找一通。",
+                "lines": [
+                  {
+                    "line_id": "L05",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "This is not vinegar at all.",
+                    "text_zh": "这根本不是醋啊。",
+                    "performance_note_zh": "抱着一瓶酱油，皱鼻子摇头。"
+                  },
+                  {
+                    "line_id": "L06",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Let us check the seven pots one by one.",
+                    "text_zh": "我们按七个花盆一个个找吧。",
+                    "performance_note_zh": "叉着腰，认真想办法。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "scene_id": "S02",
+            "scene_name_zh": "第七个花盆的线索",
+            "location_zh": "小院花径尽头",
+            "visual_overview_zh": "角色A和角色B挨个检查花盆，前六个后面都是别的调料，最后来到第七个花盆前，空气中飘着酸酸的味道。",
+            "beats": [
+              {
+                "beat_id": "B04",
+                "visual_action_zh": "他们走到第七个花盆前，角色B鼻子动了动，闻到酸味。",
+                "emotion_zh": "惊喜专注",
+                "relation_to_previous_zh": "承接逐个排查，来到第七个花盆。",
+                "lines": [
+                  {
+                    "line_id": "L07",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "This is pot number seven.",
+                    "text_zh": "这是第七个花盆啦。",
+                    "performance_note_zh": "眯起眼睛，鼻子轻轻嗅。"
+                  },
+                  {
+                    "line_id": "L08",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "I smell something sour, like vinegar.",
+                    "text_zh": "我闻到酸酸的味道，像醋。",
+                    "performance_note_zh": "凑过去也闻了闻，眼睛亮了。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B05",
+                "visual_action_zh": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。",
+                "emotion_zh": "开心得意",
+                "relation_to_previous_zh": "承接闻到酸味，揭晓醋的位置。",
+                "lines": [
+                  {
+                    "line_id": "L09",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Look! Here is your vinegar!",
+                    "text_zh": "你看！你的醋在这儿！",
+                    "performance_note_zh": "尾巴翘得高高的，指着醋瓶。"
+                  },
+                  {
+                    "line_id": "L10",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "Seven pots led us right to it!",
+                    "text_zh": "七个花盆带我们找到它啦！",
+                    "performance_note_zh": "蹦起来拍手，耳朵晃呀晃。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B06",
+                "visual_action_zh": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。",
+                "emotion_zh": "满足欢乐",
+                "relation_to_previous_zh": "承接找到醋，来到野餐分享的结尾。",
+                "lines": [
+                  {
+                    "line_id": "L11",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "配角",
+                    "text_en": "The salad tastes great with vinegar.",
+                    "text_zh": "加了醋的凉拌菜真好吃。",
+                    "performance_note_zh": "捧着大碗，眼睛亮晶晶。"
+                  },
+                  {
+                    "line_id": "L12",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Seven pots, one clever find.",
+                    "text_zh": "七个花盆，一次聪明的发现。",
+                    "performance_note_zh": "得意地竖起一根手指。"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "R2": {
+        "title": {
+          "chinese": "第七个花盆后的醋",
+          "english": "The Vinegar Behind the Seventh Flower Pot"
+        },
+        "summary": "角色A抱着调料去野餐，其中一瓶是醋，院子里摆着七个花盆。他被小石子绊倒，醋瓶滚进花盆附近找不到了。角色B提议按七个花盆逐个排查，前六个都不是，数到第七个时闻到酸味，终于在第七个花盆后面找到了醋，大家开心地分享凉拌菜。",
+        "logline": "角色A弄丢了要带去野餐的醋，角色B和他一起沿着七个花盆找线索，最后在第七个花盆后面发现醋瓶。",
+        "objective": "让孩子在寻找物品的情节中理解醋（vinegar）和数字七（seven）的含义，并学习按线索一步步寻找的方法。",
+        "revision": "R2",
+        "metrics": {
+          "beat_count": 6,
+          "dialogue_line_count": 12,
+          "duration_estimation_method": "TEXT_ESTIMATE_V1",
+          "english_dialogue_word_count": 73,
+          "estimated_duration_seconds": 79,
+          "max_sentence_word_count": 9,
+          "scene_count": 2,
+          "target_occurrence_counting_rule": "TARGET_OCCURRENCE_V1_1",
+          "target_occurrences": {
+            "W0275": {
+              "accepted_form_count": 6,
+              "base_form_count": 6
+            },
+            "W0908": {
+              "accepted_form_count": 6,
+              "base_form_count": 6
+            }
+          },
+          "unassigned_occurrence_count": 0
+        },
+        "arc": [
+          {
+            "development_beat_ids": [
+              "B02",
+              "B03"
+            ],
+            "payoff_beat_ids": [
+              "B05",
+              "B06"
+            ],
+            "setup_beat_ids": [
+              "B01"
+            ],
+            "word_id": "W0908"
+          },
+          {
+            "development_beat_ids": [
+              "B02",
+              "B03"
+            ],
+            "payoff_beat_ids": [
+              "B04",
+              "B05"
+            ],
+            "setup_beat_ids": [
+              "B01"
+            ],
+            "word_id": "W0275"
+          }
+        ],
+        "scenes": [
+          {
+            "scene_id": "S01",
+            "scene_name_zh": "院子里的七个花盆",
+            "location_zh": "小院花径",
+            "visual_overview_zh": "阳光明媚的小院里，青石板铺成的花径旁摆着一排七个小花盆，盆沿沾着细碎的阳光，地面散落着几片被风吹落的花瓣；角色A抱着几瓶调料匆匆走过，角色B跟在旁边。",
+            "beats": [
+              {
+                "beat_id": "B01",
+                "visual_action_zh": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。",
+                "emotion_zh": "开心期待",
+                "relation_to_previous_zh": "故事开场，介绍地点和道具。",
+                "lines": [
+                  {
+                    "line_id": "L01",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "One, two, seven flower pots here.",
+                    "text_zh": "一、二，这里有七个花盆。",
+                    "performance_note_zh": "尾巴一翘一翘，认真数花盆。"
+                  },
+                  {
+                    "line_id": "L02",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "I have vinegar for our picnic.",
+                    "text_zh": "我带了醋，我们野餐用。",
+                    "performance_note_zh": "举着一瓶醋，笑眯眯地展示。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B02",
+                "visual_action_zh": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。",
+                "emotion_zh": "慌张着急",
+                "relation_to_previous_zh": "承接上一拍，意外发生，醋不见了。",
+                "lines": [
+                  {
+                    "line_id": "L03",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "Oh no, where is my vinegar?",
+                    "text_zh": "糟了，我的醋去哪儿了？",
+                    "performance_note_zh": "趴在地上，鼻子皱成一团。"
+                  },
+                  {
+                    "line_id": "L04",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "It rolled near the seven pots.",
+                    "text_zh": "它滚到那七个花盆附近了。",
+                    "performance_note_zh": "瞪大眼睛，看向七个花盆。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B03",
+                "visual_action_zh": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。",
+                "emotion_zh": "慌乱懊恼",
+                "relation_to_previous_zh": "承接丢醋的意外，角色A乱找一通。",
+                "lines": [
+                  {
+                    "line_id": "L05",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "This is not vinegar at all.",
+                    "text_zh": "这根本不是醋啊。",
+                    "performance_note_zh": "抱着一瓶酱油，皱鼻子摇头。"
+                  },
+                  {
+                    "line_id": "L06",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Let us check the seven pots one by one.",
+                    "text_zh": "我们按七个花盆一个个找吧。",
+                    "performance_note_zh": "叉着腰，认真想办法。"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "scene_id": "S02",
+            "scene_name_zh": "第七个花盆的线索",
+            "location_zh": "小院花径尽头",
+            "visual_overview_zh": "角色A和角色B挨个检查花盆，前六个后面都是别的调料，最后来到第七个花盆前，空气中飘着酸酸的味道。",
+            "beats": [
+              {
+                "beat_id": "B04",
+                "visual_action_zh": "他们走到第七个花盆前，角色B鼻子动了动，闻到酸味。",
+                "emotion_zh": "惊喜专注",
+                "relation_to_previous_zh": "承接逐个排查，来到第七个花盆。",
+                "lines": [
+                  {
+                    "line_id": "L07",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "This is pot number seven.",
+                    "text_zh": "这是第七个花盆啦。",
+                    "performance_note_zh": "眯起眼睛，鼻子轻轻嗅。"
+                  },
+                  {
+                    "line_id": "L08",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "I smell something sour, like vinegar.",
+                    "text_zh": "我闻到酸酸的味道，像醋。",
+                    "performance_note_zh": "凑过去也闻了闻，眼睛亮了。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B05",
+                "visual_action_zh": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。",
+                "emotion_zh": "开心得意",
+                "relation_to_previous_zh": "承接闻到酸味，揭晓醋的位置。",
+                "lines": [
+                  {
+                    "line_id": "L09",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Look! Here is your vinegar!",
+                    "text_zh": "你看！你的醋在这儿！",
+                    "performance_note_zh": "尾巴翘得高高的，指着醋瓶。"
+                  },
+                  {
+                    "line_id": "L10",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色A",
+                    "text_en": "Seven pots led us right to it!",
+                    "text_zh": "七个花盆带我们找到它啦！",
+                    "performance_note_zh": "蹦起来拍手，耳朵晃呀晃。"
+                  }
+                ]
+              },
+              {
+                "beat_id": "B06",
+                "visual_action_zh": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝；吃完后角色A把空盘举得像花盆，角色B也学着举盘，两人相视笑起来。",
+                "emotion_zh": "满足欢乐",
+                "relation_to_previous_zh": "承接找到醋，来到野餐分享的结尾。",
+                "lines": [
+                  {
+                    "line_id": "L11",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "配角",
+                    "text_en": "The salad tastes great with vinegar.",
+                    "text_zh": "加了醋的凉拌菜真好吃。",
+                    "performance_note_zh": "捧着大碗，眼睛亮晶晶。"
+                  },
+                  {
+                    "line_id": "L12",
+                    "line_type": "DIALOGUE",
+                    "speaker_name_zh": "角色B",
+                    "text_en": "Seven pots, one clever find.",
+                    "text_zh": "七个花盆，一次聪明的发现。",
+                    "performance_note_zh": "得意地竖起一根手指。"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "port": "STORY_PLANNING",
+        "status": "EXECUTED_SUCCEEDED",
+        "model": "bytedance-seed/seed-2-1-turbo",
+        "prompt": "STORY_PLANNING-P1.0",
+        "prompt_version": "1.0.0",
+        "started_at": "2026-11-03T09:12:25.638402Z",
+        "completed_at": "2026-11-03T09:12:59.689351Z",
+        "latency_ms": 33671,
+        "cost": {
+          "amount": "0.017989",
+          "currency": "USD"
+        },
+        "input_summary": {
+          "targets": [
+            "vinegar",
+            "seven"
+          ],
+          "strategy": "AB",
+          "note": "冻结输入摘要；完整规划请求未定位。其余节点输入见正文及前序输出。"
+        },
+        "output": {
+          "character_goal": "角色A要在野餐会前找到丢失的醋，角色B要帮他按线索准确找到醋瓶。",
+          "core_problem": "角色A弄丢了醋，需要在野餐会前从七个可能的藏点里找到真正的醋瓶。",
+          "story_beats": [
+            "角色A抱着七瓶调料走向院子，准备去野餐会，其中一瓶是醋。",
+            "角色A被小石子绊倒，醋瓶滚出去，混进七个花盆附近的藏点里。",
+            "角色A着急地乱找，把花盆碰得东倒西歪，还是没找到醋。",
+            "角色B赶来，提议按七个花盆从一到七逐个检查。",
+            "他们检查第一个到第六个花盆，都只找到别的调料瓶。",
+            "数到第七个花盆时，角色B闻到酸酸的味道，发现花盆后面有醋瓶。",
+            "角色A拿出醋，和角色B一起去野餐会，和配角分享凉拌菜。"
+          ],
+          "target_arc_plan": [
+            {
+              "development": "角色A赶路时摔了一跤，醋瓶滚进院子的七个小角落，他分不清哪一个才是醋。",
+              "payoff": "角色B靠线索找到醋瓶，大家用醋调出美味凉拌菜，确认第七个藏点的就是醋。",
+              "setup": "角色A准备了七瓶不同颜色的调味瓶，其中一瓶是醋，要带去野餐会做凉拌菜。",
+              "word_id": "W0908"
+            },
+            {
+              "development": "醋瓶不见后，大家数着七个花盆一个个找，每检查一个就数一个数。",
+              "payoff": "数到第七个花盆后面，终于找到醋瓶，孩子们能清楚看见数字七与藏点的对应。",
+              "setup": "院子里有七个排成一排的小花盆，角色A把七瓶调料分别放在七个花盆旁边。",
+              "word_id": "W0275"
+            }
+          ]
+        },
+        "schema": null
+      },
+      {
+        "port": "SCRIPT_DRAFTING",
+        "status": "EXECUTED_SUCCEEDED",
+        "model": "bytedance-seed/seed-2-1-turbo",
+        "prompt": "SCRIPT_DRAFTING-P1.0",
+        "prompt_version": "1.0.0",
+        "started_at": "2026-11-03T09:12:59.993511Z",
+        "completed_at": "2026-11-03T09:13:35.704573Z",
+        "latency_ms": 35281,
+        "cost": {
+          "amount": "0.0224735",
+          "currency": "USD"
+        },
+        "input_summary": {
+          "targets": [
+            "vinegar",
+            "seven"
+          ],
+          "strategy": "AB",
+          "note": "冻结输入摘要；完整规划请求未定位。其余节点输入见正文及前序输出。"
+        },
+        "output": {
+          "title": {
+            "chinese": "第七个花盆后的醋",
+            "english": "The Vinegar Behind the Seventh Flower Pot"
+          },
+          "metrics": {
+            "beat_count": 6,
+            "dialogue_line_count": 12,
+            "duration_estimation_method": "TEXT_ESTIMATE_V1",
+            "english_dialogue_word_count": 73,
+            "estimated_duration_seconds": 79,
+            "max_sentence_word_count": 9,
+            "scene_count": 2,
+            "target_occurrence_counting_rule": "TARGET_OCCURRENCE_V1_1",
+            "target_occurrences": {
+              "W0275": {
+                "accepted_form_count": 6,
+                "base_form_count": 6
+              },
+              "W0908": {
+                "accepted_form_count": 6,
+                "base_form_count": 6
+              }
+            },
+            "unassigned_occurrence_count": 0
+          },
+          "body_ref": "S-01 / R0"
+        },
+        "schema": "http[本地路径已移除]"
+      },
+      {
+        "port": "SEMANTIC_GATE",
+        "status": "EXECUTED_SUCCEEDED",
+        "model": "bytedance-seed/seed-2-1-turbo",
+        "prompt": "SEMANTIC_GATE-P1.0",
+        "prompt_version": "1.0.0",
+        "started_at": "2026-11-03T09:13:35.889284Z",
+        "completed_at": "2026-11-03T09:13:57.904039Z",
+        "latency_ms": 21922,
+        "cost": {
+          "amount": "0.0092085",
+          "currency": "USD"
+        },
+        "input_summary": {
+          "targets": [
+            "vinegar",
+            "seven"
+          ],
+          "strategy": "AB",
+          "note": "冻结输入摘要；完整规划请求未定位。其余节点输入见正文及前序输出。"
+        },
+        "output": {
+          "gate_status": "PASS",
+          "evidence": [
+            {
+              "path": "全剧6个节拍（B01-B06），场景为小院花径与野餐，动作含摔倒、挪花盆、分享凉拌菜",
+              "summary": "内容面向3-8岁儿童，无暴力、危险模仿、恐怖或不适元素；摔倒与找物情节温和，结局为朋友分享，符合年龄适宜性与儿童安全要求。"
+            },
+            {
+              "path": "B01 L02、B02 L03/L04、B03 L05、B04 L08、B05 L09、B06 L11（vinegar 共6次，含正常形式）",
+              "summary": "目标词 vinegar（醋）语义自然一致，均指食用醋；视觉上有醋瓶、闻酸味、拌凉菜等具象支撑，适合低龄儿童理解，词义与画面绑定清晰。"
+            },
+            {
+              "path": "B01 L01、B02 L04、B03 L06、B04 L07、B05 L10、B06 L12（seven 共6次，含正常形式）",
+              "summary": "目标词 seven（七）语义自然一致，均指数目七；视觉上有七个花盆、逐个排查到第七个等具象场景，词义与数量概念绑定清晰，适合启蒙学习。"
+            },
+            {
+              "path": "故事结构：B01开场（带醋与七个花盆）→ B02-B03发展（丢醋、乱找、提出逐个排查）→ B04-B05高潮（第七个花盆、闻到酸味、找到醋）→ B06结尾（分享凉拌菜）",
+              "summary": "故事有清晰的起承转合与目标驱动（找醋），通过七个花盆的线索推进，具备可见的反差与反转（乱找失败 vs 按顺序找到），结尾欢乐分享，情节完整且对低龄儿童有吸引力。"
+            }
+          ]
+        },
+        "schema": "http[本地路径已移除]"
+      },
+      {
+        "port": "SCORING",
+        "status": "EXECUTED_SUCCEEDED",
+        "model": "bytedance-seed/seed-2-1-turbo",
+        "prompt": "SCORING-P1.0",
+        "prompt_version": "1.0.0",
+        "started_at": "2026-11-03T09:13:58.021866Z",
+        "completed_at": "2026-11-03T09:14:38.216747Z",
+        "latency_ms": 39905,
+        "cost": {
+          "amount": "0.015545",
+          "currency": "USD"
+        },
+        "input_summary": {
+          "targets": [
+            "vinegar",
+            "seven"
+          ],
+          "strategy": "AB",
+          "note": "冻结输入摘要；完整规划请求未定位。其余节点输入见正文及前序输出。"
+        },
+        "output": {
+          "raw_evidence_score": 53,
+          "final_ranking_score": 79,
+          "dimensions": {
+            "D1": 9,
+            "D2": 13,
+            "D3": 14,
+            "D4": 10,
+            "D5": 2,
+            "D6": 5
+          },
+          "length_type": "STANDARD"
+        },
+        "schema": "http[本地路径已移除]"
+      }
+    ],
+    "dimensions": [
+      {
+        "id": "D1",
+        "name": "儿童趣味机制",
+        "score": 9,
+        "maximum": 40,
+        "items": [
+          {
+            "id": "D1.1",
+            "name": "反转与意外",
+            "score": 2,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "B01建立了带醋去野餐的顺利预期，B02角色A被石子绊倒、醋瓶滚走不见，打破预期形成儿童可理解的意外。",
+                "所属子维度": "D1.1_反转与意外",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.1",
+                "证据ID": "E001"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "B03-B04建立了逐个找花盆、前六个都不是的预期，B05在第七个花盆后找到醋，结果符合线索又有揭晓感。",
+                "所属子维度": "D1.1_反转与意外",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.1",
+                "证据ID": "E002"
+              }
+            ]
+          },
+          {
+            "id": "D1.2",
+            "name": "语言巧用_逻辑幽默",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "角色B说“Seven pots, one clever find.”，用seven和find形成简短押韵和数字呼应，语言轻巧有儿童感。",
+                "所属子维度": "D1.2_语言巧用_逻辑幽默",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.2",
+                "证据ID": "E003"
+              }
+            ]
+          },
+          {
+            "id": "D1.3",
+            "name": "视觉搞笑",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，动作夸张又安全，属于儿童易懂的出洋相。",
+                "所属子维度": "D1.3_视觉搞笑",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.3",
+                "证据ID": "E004"
+              },
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "角色A东翻西找碰倒好几个花盆，抱着酱油皱鼻子摇头，表情和动作都很滑稽。",
+                "所属子维度": "D1.3_视觉搞笑",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.3",
+                "证据ID": "E005"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "角色A找到醋后蹦起来拍手、耳朵晃呀晃，夸张开心的表情动作视觉感强。",
+                "所属子维度": "D1.3_视觉搞笑",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.3",
+                "证据ID": "E006"
+              }
+            ]
+          },
+          {
+            "id": "D1.4",
+            "name": "重复与互动节奏",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "角色B数“One, two, seven flower pots here.”，开启数字数数节奏，儿童可跟读和预测。",
+                "所属子维度": "D1.4_重复与互动节奏",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.4",
+                "证据ID": "E007"
+              },
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "角色B说“Let us check the seven pots one by one.”，建立逐个排查的重复预测结构。",
+                "所属子维度": "D1.4_重复与互动节奏",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.4",
+                "证据ID": "E008"
+              },
+              {
+                "上下文镜头": [
+                  "B04"
+                ],
+                "主要镜头": "B04",
+                "动作_画面_情绪证据": "他们走到第七个花盆前，角色B鼻子动了动，闻到酸味。；惊喜专注",
+                "原文片段": "This is pot number seven. I smell something sour, like vinegar.",
+                "对应得分": 1,
+                "得分原因说明": "“This is pot number seven.”呼应前面的七个花盆，推进数数节奏并形成期待。",
+                "所属子维度": "D1.4_重复与互动节奏",
+                "所属评分维度": "儿童趣味机制",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D1.4",
+                "证据ID": "E009"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "name": "儿童吸引力",
+        "score": 13,
+        "maximum": 20,
+        "items": [
+          {
+            "id": "D2.1",
+            "name": "角色讨喜度",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "角色A丢醋后着急趴在地上找，笨拙又真实，容易让孩子觉得亲近可爱。",
+                "所属子维度": "D2.1_角色讨喜度",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.1",
+                "证据ID": "E010"
+              },
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "角色A乱找一通还抱错酱油，不完美但努力，符合其温和笨拙的讨喜特质。",
+                "所属子维度": "D2.1_角色讨喜度",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.1",
+                "证据ID": "E011"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "找到醋后角色A蹦起来拍手，开心直接，孩子容易喜欢这种简单明朗的反应。",
+                "所属子维度": "D2.1_角色讨喜度",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.1",
+                "证据ID": "E012"
+              }
+            ]
+          },
+          {
+            "id": "D2.2",
+            "name": "儿童兴趣元素",
+            "score": 4,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "野餐、食物调料、花盆等儿童熟悉的生活元素出现，且醋和花盆直接推动故事。",
+                "所属子维度": "D2.2_儿童兴趣元素",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.2",
+                "证据ID": "E013"
+              },
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "寻找物品的游戏式情节参与感强，符合儿童对“找一找”类内容的兴趣。",
+                "所属子维度": "D2.2_儿童兴趣元素",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.2",
+                "证据ID": "E014"
+              },
+              {
+                "上下文镜头": [
+                  "B04"
+                ],
+                "主要镜头": "B04",
+                "动作_画面_情绪证据": "他们走到第七个花盆前，角色B鼻子动了动，闻到酸味。；惊喜专注",
+                "原文片段": "This is pot number seven. I smell something sour, like vinegar.",
+                "对应得分": 1,
+                "得分原因说明": "数字七和花盆结合，启蒙元素自然融入寻找过程，不是背景装饰。",
+                "所属子维度": "D2.2_儿童兴趣元素",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.2",
+                "证据ID": "E015"
+              },
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "结尾分享凉拌菜的食物与朋友聚会元素，增强儿童兴趣并与开头野餐目标呼应。",
+                "所属子维度": "D2.2_儿童兴趣元素",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.2",
+                "证据ID": "E016"
+              }
+            ]
+          },
+          {
+            "id": "D2.3",
+            "name": "儿童视角行为",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "角色A摔了之后立刻着急找醋，反应直接，符合儿童遇到小意外的真实心理。",
+                "所属子维度": "D2.3_儿童视角行为",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.3",
+                "证据ID": "E017"
+              },
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "角色A东翻西找、乱碰花盆，是孩子常见的着急时不加思考的行为方式。",
+                "所属子维度": "D2.3_儿童视角行为",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.3",
+                "证据ID": "E018"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "找到东西就开心蹦跳拍手，简单直接的快乐符合儿童行为特点。",
+                "所属子维度": "D2.3_儿童视角行为",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.3",
+                "证据ID": "E019"
+              }
+            ]
+          },
+          {
+            "id": "D2.4",
+            "name": "记忆点设计",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "“七个花盆”的画面和数数短句结合，形象清晰容易被孩子记住。",
+                "所属子维度": "D2.4_记忆点设计",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.4",
+                "证据ID": "E020"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "第七个花盆后面找到醋的经典画面，和“Seven pots led us right to it!”短句绑定记忆点强。",
+                "所属子维度": "D2.4_记忆点设计",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.4",
+                "证据ID": "E021"
+              },
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "“Seven pots, one clever find.”结尾短句简洁有节奏，容易复述和跟读。",
+                "所属子维度": "D2.4_记忆点设计",
+                "所属评分维度": "儿童吸引力",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D2.4",
+                "证据ID": "E022"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "name": "英语学习价值",
+        "score": 14,
+        "maximum": 15,
+        "items": [
+          {
+            "id": "D3.1",
+            "name": "核心词汇自然融入与情境绑定",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "“vinegar”出现在角色A举醋瓶展示的动作中，画面和物品直接对应，情境自然。",
+                "所属子维度": "D3.1_核心词汇自然融入与情境绑定",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.1",
+                "证据ID": "E023"
+              },
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "“seven”与角色B数花盆的动作绑定，孩子可通过画面理解数字含义。",
+                "所属子维度": "D3.1_核心词汇自然融入与情境绑定",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.1",
+                "证据ID": "E024"
+              },
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "“vinegar”出现在加醋拌菜的品尝场景中，与食物味道和使用场景绑定。",
+                "所属子维度": "D3.1_核心词汇自然融入与情境绑定",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.1",
+                "证据ID": "E025"
+              }
+            ]
+          },
+          {
+            "id": "D3.2",
+            "name": "高频重复与语言记忆强化",
+            "score": 4,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "“seven flower pots”首次出现，建立数字与花盆的对应。",
+                "所属子维度": "D3.2_高频重复与语言记忆强化",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.2",
+                "证据ID": "E026"
+              },
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "“near the seven pots”重复seven，强化数字与地点关联。",
+                "所属子维度": "D3.2_高频重复与语言记忆强化",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.2",
+                "证据ID": "E027"
+              },
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "“check the seven pots one by one”再次重复seven，形成句型规律帮助记忆。",
+                "所属子维度": "D3.2_高频重复与语言记忆强化",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.2",
+                "证据ID": "E028"
+              },
+              {
+                "上下文镜头": [
+                  "B04"
+                ],
+                "主要镜头": "B04",
+                "动作_画面_情绪证据": "他们走到第七个花盆前，角色B鼻子动了动，闻到酸味。；惊喜专注",
+                "原文片段": "This is pot number seven. I smell something sour, like vinegar.",
+                "对应得分": 1,
+                "得分原因说明": "“pot number seven”第四次出现seven，递进推进情节并巩固记忆。",
+                "所属子维度": "D3.2_高频重复与语言记忆强化",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.2",
+                "证据ID": "E029"
+              }
+            ]
+          },
+          {
+            "id": "D3.3",
+            "name": "韵律押韵与朗朗上口",
+            "score": 2,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "“Seven pots, one clever find.”中seven和clever尾音接近，有轻韵律感，朗朗上口。",
+                "所属子维度": "D3.3_韵律押韵与朗朗上口",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.3",
+                "证据ID": "E030"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "“Seven pots led us right to it!”节奏明快，短句适合朗读和跟唱。",
+                "所属子维度": "D3.3_韵律押韵与朗朗上口",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.3",
+                "证据ID": "E031"
+              }
+            ]
+          },
+          {
+            "id": "D3.4",
+            "name": "语言模仿与互动输出价值",
+            "score": 2,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "“One, two, seven flower pots here.”短句简单，孩子可跟着数数跟读。",
+                "所属子维度": "D3.4_语言模仿与互动输出价值",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.4",
+                "证据ID": "E032"
+              },
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "“Seven pots, one clever find.”短而有节奏，适合儿童模仿和输出。",
+                "所属子维度": "D3.4_语言模仿与互动输出价值",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.4",
+                "证据ID": "E033"
+              }
+            ]
+          },
+          {
+            "id": "D3.5",
+            "name": "语言难度适龄性",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "“I have vinegar for our picnic.”是7词简单陈述句，高频词汇，画面支撑充分。",
+                "所属子维度": "D3.5_语言难度适龄性",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.5",
+                "证据ID": "E034"
+              },
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "“Oh no, where is my vinegar?”短问句结构简单，符合低龄启蒙水平。",
+                "所属子维度": "D3.5_语言难度适龄性",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.5",
+                "证据ID": "E035"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "“Look! Here is your vinegar!”短句感叹句，整体语言负荷适中、自然。",
+                "所属子维度": "D3.5_语言难度适龄性",
+                "所属评分维度": "英语学习价值",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D3.5",
+                "证据ID": "E036"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "name": "情绪连接",
+        "score": 10,
+        "maximum": 10,
+        "items": [
+          {
+            "id": "D4.1",
+            "name": "角色关系建立",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "醋不见后角色B立刻指出滚到花盆附近，主动帮助角色A，形成朋友间支持关系。",
+                "所属子维度": "D4.1_角色关系建立",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.1",
+                "证据ID": "E037"
+              },
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "角色B提出逐个找花盆的办法，两人有分工合作的互动，关系更具体。",
+                "所属子维度": "D4.1_角色关系建立",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.1",
+                "证据ID": "E038"
+              },
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "大家一起分享加了醋的凉拌菜，共同享受结果，陪伴和分享感明确。",
+                "所属子维度": "D4.1_角色关系建立",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.1",
+                "证据ID": "E039"
+              }
+            ]
+          },
+          {
+            "id": "D4.2",
+            "name": "情绪表达与变化",
+            "score": 3,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "开头开心期待的情绪与野餐目标绑定，孩子能从表情和动作看懂。",
+                "所属子维度": "D4.2_情绪表达与变化",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.2",
+                "证据ID": "E040"
+              },
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "丢醋后角色A慌张着急，情绪随事件变化清楚可见。",
+                "所属子维度": "D4.2_情绪表达与变化",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.2",
+                "证据ID": "E041"
+              },
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "找到醋后两人开心得意，情绪从着急转为释放，变化明确。",
+                "所属子维度": "D4.2_情绪表达与变化",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.2",
+                "证据ID": "E042"
+              }
+            ]
+          },
+          {
+            "id": "D4.3",
+            "name": "共情与角色处境理解",
+            "score": 2,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B02"
+                ],
+                "主要镜头": "B02",
+                "动作_画面_情绪证据": "角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。；慌张着急",
+                "原文片段": "Oh no, where is my vinegar? It rolled near the seven pots.",
+                "对应得分": 1,
+                "得分原因说明": "角色A弄丢要带去野餐的醋，着急寻找的处境简单，孩子容易理解和共情。",
+                "所属子维度": "D4.3_共情与角色处境理解",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.3",
+                "证据ID": "E043"
+              },
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "角色A乱找一通却找不到，努力又受挫的状态让孩子能体会其困难。",
+                "所属子维度": "D4.3_共情与角色处境理解",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.3",
+                "证据ID": "E044"
+              }
+            ]
+          },
+          {
+            "id": "D4.4",
+            "name": "成长与积极价值",
+            "score": 2,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "从乱找变成按七个花盆逐个排查，学会了有条理地寻找，是小的成长。",
+                "所属子维度": "D4.4_成长与积极价值",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.4",
+                "证据ID": "E045"
+              },
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "最终找回醋并和朋友分享，获得开心结果和合作完成任务的积极体验。",
+                "所属子维度": "D4.4_成长与积极价值",
+                "所属评分维度": "情绪连接",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D4.4",
+                "证据ID": "E046"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "name": "想象力与创意",
+        "score": 2,
+        "maximum": 10,
+        "items": [
+          {
+            "id": "D5.1",
+            "name": "世界设定与背景创意",
+            "score": 0,
+            "evidence": []
+          },
+          {
+            "id": "D5.2",
+            "name": "角色能力与设定创意",
+            "score": 0,
+            "evidence": []
+          },
+          {
+            "id": "D5.3",
+            "name": "视觉惊喜与画面创意",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B05"
+                ],
+                "主要镜头": "B05",
+                "动作_画面_情绪证据": "角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。；开心得意",
+                "原文片段": "Look! Here is your vinegar! Seven pots led us right to it!",
+                "对应得分": 1,
+                "得分原因说明": "挪开第七个花盆后露出醋瓶的画面有揭晓感，视觉上有小惊喜且儿童易懂。",
+                "所属子维度": "D5.3_视觉惊喜与画面创意",
+                "所属评分维度": "想象力与创意",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D5.3",
+                "证据ID": "E047"
+              }
+            ]
+          },
+          {
+            "id": "D5.4",
+            "name": "创意组合与新颖表达",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "把数字七和寻找游戏结合，用“七个花盆逐个找”形成熟悉元素的新玩法。",
+                "所属子维度": "D5.4_创意组合与新颖表达",
+                "所属评分维度": "想象力与创意",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D5.4",
+                "证据ID": "E048"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "name": "结构完整与观看体验",
+        "score": 5,
+        "maximum": 5,
+        "items": [
+          {
+            "id": "D6.1",
+            "name": "故事结构完整",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "有起点：带醋去野餐遇七个花盆；有发展：丢醋并逐个寻找；有结果：第七个花盆后找到并分享，结构完整。",
+                "所属子维度": "D6.1_故事结构完整",
+                "所属评分维度": "结构完整与观看体验",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D6.1",
+                "证据ID": "E049"
+              }
+            ]
+          },
+          {
+            "id": "D6.2",
+            "name": "故事起伏与发展",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "故事从顺利出发到意外丢醋，再到乱找失败、有方法地排查，最后找到并分享，有推进和起伏。",
+                "所属子维度": "D6.2_故事起伏与发展",
+                "所属评分维度": "结构完整与观看体验",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D6.2",
+                "证据ID": "E050"
+              }
+            ]
+          },
+          {
+            "id": "D6.3",
+            "name": "开头吸引力",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B01"
+                ],
+                "主要镜头": "B01",
+                "动作_画面_情绪证据": "角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。；开心期待",
+                "原文片段": "One, two, seven flower pots here. I have vinegar for our picnic.",
+                "对应得分": 1,
+                "得分原因说明": "开头第一个镜头就出现主角、七个花盆、醋和野餐目标，动作和兴趣元素明确，吸引力强。",
+                "所属子维度": "D6.3_开头吸引力",
+                "所属评分维度": "结构完整与观看体验",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D6.3",
+                "证据ID": "E051"
+              }
+            ]
+          },
+          {
+            "id": "D6.4",
+            "name": "结尾记忆点_结尾payoff",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B06"
+                ],
+                "主要镜头": "B06",
+                "动作_画面_情绪证据": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。；满足欢乐",
+                "原文片段": "The salad tastes great with vinegar. Seven pots, one clever find.",
+                "对应得分": 1,
+                "得分原因说明": "结尾“Seven pots, one clever find.”回应了开头的七个花盆和中间的寻找过程，收束清楚且有记忆点。",
+                "所属子维度": "D6.4_结尾记忆点_结尾payoff",
+                "所属评分维度": "结构完整与观看体验",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D6.4",
+                "证据ID": "E052"
+              }
+            ]
+          },
+          {
+            "id": "D6.5",
+            "name": "整体观看体验与节奏清晰度",
+            "score": 1,
+            "evidence": [
+              {
+                "上下文镜头": [
+                  "B03"
+                ],
+                "主要镜头": "B03",
+                "动作_画面_情绪证据": "角色A东翻西找，碰倒好几个花盆，还是没找到醋。；慌乱懊恼",
+                "原文片段": "This is not vinegar at all. Let us check the seven pots one by one.",
+                "对应得分": 1,
+                "得分原因说明": "整体主线清楚，从丢醋到找醋再到分享，镜头顺序和因果关系明确，节奏适合儿童。",
+                "所属子维度": "D6.5_整体观看体验与节奏清晰度",
+                "所属评分维度": "结构完整与观看体验",
+                "来源字段": [
+                  "scenes",
+                  "beats",
+                  "lines"
+                ],
+                "置信度": 0.95,
+                "触发机制": "REAL_MODEL_SCORING:D6.5",
+                "证据ID": "E053"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "score": {
+      "calibrated_quality_score": 71,
+      "confidence": "0.95",
+      "core_mechanism_density": "3.833333",
+      "core_mechanism_score": 23,
+      "dimensions": {
+        "D1": 9,
+        "D2": 13,
+        "D3": 14,
+        "D4": 10,
+        "D5": 2,
+        "D6": 5
+      },
+      "effective_content_density_score": 69,
+      "final_ranking_score": 79,
+      "length_type": "STANDARD",
+      "normalized_quality_score": 81,
+      "raw_evidence_score": 53,
+      "shot_count": 6,
+      "subscores": {
+        "D1.1": 2,
+        "D1.2": 1,
+        "D1.3": 3,
+        "D1.4": 3,
+        "D2.1": 3,
+        "D2.2": 4,
+        "D2.3": 3,
+        "D2.4": 3,
+        "D3.1": 3,
+        "D3.2": 4,
+        "D3.3": 2,
+        "D3.4": 2,
+        "D3.5": 3,
+        "D4.1": 3,
+        "D4.2": 3,
+        "D4.3": 2,
+        "D4.4": 2,
+        "D5.1": 0,
+        "D5.2": 0,
+        "D5.3": 1,
+        "D5.4": 1,
+        "D6.1": 1,
+        "D6.2": 1,
+        "D6.3": 1,
+        "D6.4": 1,
+        "D6.5": 1
+      },
+      "target_density": "5.0"
+    },
+    "ranking_rule": "先按最终排序分降序排序；如最终排序分相同，依次按校准质量分、儿童趣味机制、儿童吸引力、英语学习价值、情绪连接、想象力与创意、结构完整与观看体验、评分置信度降序排序；仍相同则按文章ID升序排序。",
+    "observations": [
+      "自动评分不替代人工终审。",
+      "长度绑定：Canonical兼容标签=LONG；实际镜头数=6；评分归一化桶=STANDARD。"
+    ],
+    "revisions": [
+      {
+        "revision": "R1",
+        "parent": "R0",
+        "feedback": "请将场景1“小院花径”的环境画面细化1—2句，补充花盆与花径的空间关系、阳光和地面细节；保留所有英文对白、原剧情和目标词学习目标。",
+        "status": "COMPLETED",
+        "started_at": "2026-11-03T09:16:37.180099Z",
+        "completed_at": "2026-11-03T09:17:00.460059Z",
+        "changes": [
+          {
+            "path": "/revision",
+            "before": "R0",
+            "after": "R1"
+          },
+          {
+            "path": "/scenes/0/visual_overview_zh",
+            "before": "阳光明媚的小院里，一排七个小花盆整齐摆着，角色A抱着几瓶调料匆匆走过，角色B跟在旁边。",
+            "after": "阳光明媚的小院里，青石板铺成的花径旁摆着一排七个小花盆，盆沿沾着细碎的阳光，地面散落着几片被风吹落的花瓣；角色A抱着几瓶调料匆匆走过，角色B跟在旁边。"
+          }
+        ],
+        "semantic": {
+          "policy_receipt": {
+            "job_id": "[本地记录ID已脱敏]",
+            "profile": "HUMAN_REVISION_NO_SEMANTIC_V1",
+            "semantic_model_call_count": 0,
+            "semantic_network_request_count": 0
+          },
+          "reason_code": "HUMAN_REVISION_NO_SEMANTIC_V1",
+          "status": "NOT_RUN"
+        },
+        "scoring": {
+          "actual_score": null,
+          "reason_code": "USER_DIRECTED_REVISION_REFERENCE_ONLY_NO_RESCORE",
+          "status": "NOT_RUN",
+          "subject_id": "[本地记录ID已脱敏]"
+        },
+        "lineage": {
+          "status": "PASS"
+        },
+        "receipt": {
+          "model": "bytedance-seed/seed-2-1-turbo",
+          "prompt_id": "TARGETED-REVISION-HUMAN-SUGGESTION-SPARSE-P3.1",
+          "prompt_version": "3.1",
+          "latency_ms": 5547,
+          "cost": {
+            "amount": "0.0042885",
+            "currency": "USD"
+          },
+          "started_at": "2026-11-03T09:16:53.342084Z"
+        },
+        "source": "S-05"
+      },
+      {
+        "revision": "R2",
+        "parent": "R1",
+        "feedback": "请在Beat6品尝凉拌菜的结尾，补充角色A和角色B的无对白趣味动作：角色A把空盘举得像花盆，角色B也学着举盘，两人相视笑起来。保留已有对白、目标词和其他内容，不新增台词。",
+        "status": "COMPLETED",
+        "started_at": "2026-11-03T09:19:33.638269Z",
+        "completed_at": "2026-11-03T09:20:04.893415Z",
+        "changes": [
+          {
+            "path": "/revision",
+            "before": "R1",
+            "after": "R2"
+          },
+          {
+            "path": "/scenes/1/beats/2/visual_action_zh",
+            "before": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝。",
+            "after": "配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝；吃完后角色A把空盘举得像花盆，角色B也学着举盘，两人相视笑起来。"
+          }
+        ],
+        "semantic": {
+          "policy_receipt": {
+            "job_id": "[本地记录ID已脱敏]",
+            "profile": "HUMAN_REVISION_NO_SEMANTIC_V1",
+            "semantic_model_call_count": 0,
+            "semantic_network_request_count": 0
+          },
+          "reason_code": "HUMAN_REVISION_NO_SEMANTIC_V1",
+          "status": "NOT_RUN"
+        },
+        "scoring": {
+          "actual_score": null,
+          "reason_code": "USER_DIRECTED_REVISION_REFERENCE_ONLY_NO_RESCORE",
+          "status": "NOT_RUN",
+          "subject_id": "[本地记录ID已脱敏]"
+        },
+        "lineage": {
+          "status": "PASS"
+        },
+        "receipt": {
+          "model": "bytedance-seed/seed-2-1-turbo",
+          "prompt_id": "TARGETED-REVISION-HUMAN-SUGGESTION-SPARSE-P3.1",
+          "prompt_version": "3.1",
+          "latency_ms": 5655,
+          "cost": {
+            "amount": "0.0043085",
+            "currency": "USD"
+          },
+          "started_at": "2026-11-03T09:19:57.716611Z"
+        },
+        "source": "S-06"
+      }
+    ],
+    "library": [
+      {
+        "export_count": 1,
+        "last_exported_at": "2026-11-03T09:44:36.659649Z",
+        "revision_label": "R2",
+        "stored_at": "2026-11-03T09:22:23.443920Z"
+      }
+    ],
+    "exports": [
+      {
+        "download_format": "TXT",
+        "export_batch_id": "LIBRARY-EXPORT-0001",
+        "exported_at": "2026-11-03T09:44:36.659649Z",
+        "story_count": 1
+      }
+    ],
+    "cost": {
+      "call_count": 4,
+      "completion_tokens": 8156,
+      "cost_amount": "0.0652160",
+      "currency": "USD",
+      "prompt_tokens": 89652,
+      "total_tokens": 97808
+    },
+    "rules": {
+      "grouping_rule_version": "word-grouping-1.4",
+      "model_id": "bytedance-seed/seed-2-1-turbo",
+      "prompt_version": "1.0.0",
+      "score_rule_version": "5.1.2",
+      "tokenizer_version": "TARGET_OCCURRENCE_V1_1",
+      "vocabulary_version": "vocab-1.1"
+    },
+    "failure": {
+      "id": "ENGINEERING-S02",
+      "date": "2026-11-04",
+      "tests": 770,
+      "actual": {
+        "new_planning_calls": 0,
+        "original_draft_measured_dialogue_words": 55,
+        "minimum_required_dialogue_words": 65,
+        "actual_new_drafting_requests": 1,
+        "error": "HTTP_429",
+        "formal_r0_created": false,
+        "automatic_paid_retries": 0,
+        "model_execution_and_actual_fee": "UNKNOWN"
+      }
+    },
+    "ip_configured": true
+  },
+  "book": {
+    "id": "CASE-P01",
+    "title": "小小宇航员",
+    "title_en": "The Little Astronaut",
+    "created_at": "2026-11-06T11:29:03.520539+00:00",
+    "updated_at": "2026-11-07T03:30:28.269131+00:00",
+    "stored_at": "2026-11-07T03:30:28.269131+00:00",
+    "approved": true,
+    "models": {
+      "STORY_CREATION": "qwen/qwen3.8-max-0902",
+      "SEMANTIC_GATE": "qwen/qwen3.8-max-0902",
+      "TARGETED_REVISION": "qwen/qwen3.8-max-0902"
+    },
+    "cost": {
+      "model_calls": 4,
+      "actual_usd": "0.079786",
+      "unknown_cost_calls": 0,
+      "reserved_usd": "0.332594",
+      "committed_usd": "0.079786",
+      "tokens": 27595
+    },
+    "versions": [
+      {
+        "revision": "R0",
+        "script": {
+          "revision": "R0",
+          "pages": [
+            {
+              "en": "Alex wants to be an astronaut today. He draws a rocket on paper and puts it on the wall.",
+              "page_number": 1,
+              "zh": "主角今天有个大计划——他要当一名宇航员！他用彩笔在纸上画了一枚火箭，郑重地贴在客厅墙上，还敬了个礼。"
+            },
+            {
+              "en": "Mum is helpful. She finds a big box and says, ",
+              "page_number": 2,
+              "zh": "妈妈走过来，笑盈盈地说：'宇航员需要火箭呀！'她找来一个大纸箱，用胶带封好，还在侧面画了窗户。这就是火箭啦！"
+            },
+            {
+              "en": "Dad says, ",
+              "page_number": 3,
+              "zh": "爸爸翻遍厨房，找出一个不锈钢漏勺，往主角头上一扣：'宇航员的头盔！'主角透过小孔往外看，觉得自己酷极了。"
+            },
+            {
+              "en": "Sam is helpful too. She puts a water bottle and some crackers into the box. ",
+              "page_number": 4,
+              "zh": "妹妹也来帮忙。她把小水壶和几块饼干塞进纸箱，认真地说：'太空里会饿的，宇航员要带够吃的！'她还在纸箱里铺了一条小毯子当座位。"
+            },
+            {
+              "en": "Alex checks his list like a real astronaut. Helmet, water, snacks—all ready!",
+              "page_number": 5,
+              "zh": "主角拿出一张清单，像真正的宇航员一样逐项核对：头盔、水、食物、座位……每确认一项就打一个勾。全部就绪！"
+            },
+            {
+              "en": "Grandpa is helpful. He stands by the box and starts a loud countdown. ",
+              "page_number": 6,
+              "zh": "爷爷自告奋勇当发射指挥官。他站在纸箱旁边，灰白胡子一翘一翘的，扯着嗓子喊：'十、九、八……'声音大得全家都笑了。"
+            },
+            {
+              "en": "Three, two, one—blast off! The astronaut flies to the moon in his box rocket.",
+              "page_number": 7,
+              "zh": "'三、二、一，发射！'主角蹲在纸箱里使劲摇晃，嘴里发出'轰隆隆'的声音。他觉得自己真的飞起来了，穿过云层，飞向月亮。"
+            },
+            {
+              "en": "Alex says, ",
+              "page_number": 8,
+              "zh": "'着陆'之后，主角从纸箱里探出头，摘下漏勺头盔，开心地说：'当宇航员真好玩，但最棒的是——我有一个乐于助人的队伍！'全家人一起鼓起掌来。"
+            }
+          ],
+          "title_en": "The Little Astronaut",
+          "title_zh": "小小宇航员"
+        },
+        "gate_result": {
+          "gate_status": "BLOCK",
+          "issues": [
+            {
+              "category": "ENGLISH",
+              "evidence": "Page 2 EN: 'Mum is helpful. She finds a big box and says, ' / Page 3 EN: 'Dad says, ' / Page 8 EN: 'Alex says, '",
+              "pages": [
+                2,
+                3,
+                8
+              ],
+              "problem": "三页英文均以 'says,' 结尾，后面没有任何对话内容，句子不完整。其中第3页尤为关键：中文描述了爸爸把漏勺扣在主角头上当头盔，但英文完全缺失这一动作，导致第5页 'Helmet, water, snacks—all ready!' 中的 helmet 在英文中毫无来源，英文读者无法理解故事逻辑。",
+              "repair_scope": "LOCAL_TEXT",
+              "severity": "ERROR",
+              "suggested_fix": "为第2、3、8页补全 says 之后的对话或改为完整叙述。第3页至少需要交代 Dad 提供了 helmet（如 colander/strainer 扣在头上），使第5页的清单核对在英文中有据可依。"
+            }
+          ],
+          "suggestions": [
+            "第2、4、6页均以 'X is helpful' 开头，结构重复度较高；若希望增加变化，可将其中一处改为动作描写带出 helpful 的含义，但当前写法属于正常教学复现，不阻断。"
+          ],
+          "summary": "英文第2、3、8页存在以 'says,' 结尾但缺少对话内容的不完整句子，其中第3页遗漏了头盔的关键情节，导致第5页英文出现无来源的 'Helmet'，故事连贯性受损。目标词用法正确，IP角色一致，中文表达通顺，儿童安全无问题。修复缺失对话后可通过。"
+        },
+        "target_usage_report": {
+          "policy_id": "PB-TARGET-USAGE-1.0",
+          "passed": true,
+          "targets": [
+            {
+              "word_id": "PB-0030",
+              "word": "astronaut",
+              "count": 3,
+              "meets_minimum": true,
+              "matches": [
+                {
+                  "page_number": 1,
+                  "form": "astronaut"
+                },
+                {
+                  "page_number": 5,
+                  "form": "astronaut"
+                },
+                {
+                  "page_number": 7,
+                  "form": "astronaut"
+                }
+              ]
+            },
+            {
+              "word_id": "PB-0205",
+              "word": "helpful",
+              "count": 3,
+              "meets_minimum": true,
+              "matches": [
+                {
+                  "page_number": 2,
+                  "form": "helpful"
+                },
+                {
+                  "page_number": 4,
+                  "form": "helpful"
+                },
+                {
+                  "page_number": 6,
+                  "form": "helpful"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "revision": "R1",
+        "script": {
+          "revision": "R1",
+          "pages": [
+            {
+              "en": "Alex wants to be an astronaut today. He draws a rocket on paper and puts it on the wall.",
+              "page_number": 1,
+              "zh": "主角今天有个大计划——他要当一名宇航员！他用彩笔在纸上画了一枚火箭，郑重地贴在客厅墙上，还敬了个礼。"
+            },
+            {
+              "en": "Mum is helpful. She finds a big box and says, 'An astronaut needs a rocket!' She tapes it shut and draws windows on the side. Now it is a rocket!",
+              "page_number": 2,
+              "zh": "妈妈走过来，笑盈盈地说：'宇航员需要火箭呀！'她找来一个大纸箱，用胶带封好，还在侧面画了窗户。这就是火箭啦！"
+            },
+            {
+              "en": "Dad searches the kitchen and finds a big colander. He puts it on Alex's head. 'A helmet for the astronaut!' Alex looks through the little holes and thinks he looks so cool.",
+              "page_number": 3,
+              "zh": "爸爸翻遍厨房，找出一个不锈钢漏勺，往主角头上一扣：'宇航员的头盔！'主角透过小孔往外看，觉得自己酷极了。"
+            },
+            {
+              "en": "Sam is helpful too. She puts a water bottle and some crackers into the box. ",
+              "page_number": 4,
+              "zh": "妹妹也来帮忙。她把小水壶和几块饼干塞进纸箱，认真地说：'太空里会饿的，宇航员要带够吃的！'她还在纸箱里铺了一条小毯子当座位。"
+            },
+            {
+              "en": "Alex checks his list like a real astronaut. Helmet, water, snacks—all ready!",
+              "page_number": 5,
+              "zh": "主角拿出一张清单，像真正的宇航员一样逐项核对：头盔、水、食物、座位……每确认一项就打一个勾。全部就绪！"
+            },
+            {
+              "en": "Grandpa is helpful. He stands by the box and starts a loud countdown. ",
+              "page_number": 6,
+              "zh": "爷爷自告奋勇当发射指挥官。他站在纸箱旁边，灰白胡子一翘一翘的，扯着嗓子喊：'十、九、八……'声音大得全家都笑了。"
+            },
+            {
+              "en": "Three, two, one—blast off! The astronaut flies to the moon in his box rocket.",
+              "page_number": 7,
+              "zh": "'三、二、一，发射！'主角蹲在纸箱里使劲摇晃，嘴里发出'轰隆隆'的声音。他觉得自己真的飞起来了，穿过云层，飞向月亮。"
+            },
+            {
+              "en": "After landing, Alex pops out of the box and takes off his colander helmet. He says happily, 'Being an astronaut is so much fun, but the best part is—I have a helpful team!' The whole family claps.",
+              "page_number": 8,
+              "zh": "'着陆'之后，主角从纸箱里探出头，摘下漏勺头盔，开心地说：'当宇航员真好玩，但最棒的是——我有一个乐于助人的队伍！'全家人一起鼓起掌来。"
+            }
+          ],
+          "title_en": "The Little Astronaut",
+          "title_zh": "小小宇航员"
+        },
+        "gate_result": {
+          "gate_status": "PASS",
+          "issues": [],
+          "suggestions": [],
+          "summary": "中英文逐页对应良好，英文表达简洁清楚、适合儿童朗读。两个目标词astronaut和helpful均按主释义自然融入故事，语法正确、语境合理。故事围绕主角的宇航员想象游戏展开，家人依次帮忙，逻辑连贯、结尾温暖。IP角色行为与资料一致，命名规范。无儿童安全问题。"
+        },
+        "target_usage_report": {
+          "policy_id": "PB-TARGET-USAGE-1.0",
+          "passed": true,
+          "targets": [
+            {
+              "word_id": "PB-0030",
+              "word": "astronaut",
+              "count": 6,
+              "meets_minimum": true,
+              "matches": [
+                {
+                  "page_number": 1,
+                  "form": "astronaut"
+                },
+                {
+                  "page_number": 2,
+                  "form": "astronaut"
+                },
+                {
+                  "page_number": 3,
+                  "form": "astronaut"
+                },
+                {
+                  "page_number": 5,
+                  "form": "astronaut"
+                },
+                {
+                  "page_number": 7,
+                  "form": "astronaut"
+                },
+                {
+                  "page_number": 8,
+                  "form": "astronaut"
+                }
+              ]
+            },
+            {
+              "word_id": "PB-0205",
+              "word": "helpful",
+              "count": 4,
+              "meets_minimum": true,
+              "matches": [
+                {
+                  "page_number": 2,
+                  "form": "helpful"
+                },
+                {
+                  "page_number": 4,
+                  "form": "helpful"
+                },
+                {
+                  "page_number": 6,
+                  "form": "helpful"
+                },
+                {
+                  "page_number": 8,
+                  "form": "helpful"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "events": [
+      {
+        "created_at": "2026-11-06T11:29:03.520539+00:00",
+        "status": "QUEUED",
+        "phase": "STORY_CREATION",
+        "detail": "任务已保存，等待创作。"
+      },
+      {
+        "created_at": "2026-11-06T11:29:04.276517+00:00",
+        "status": "RUNNING",
+        "phase": "STORY_CREATION",
+        "detail": "开始创作主线与逐页正文。"
+      },
+      {
+        "created_at": "2026-11-06T11:29:46.883552+00:00",
+        "status": "RUNNING",
+        "phase": "SEMANTIC_GATE",
+        "detail": "R0 正文已保存，开始全篇门禁。"
+      },
+      {
+        "created_at": "2026-11-06T11:30:50.755454+00:00",
+        "status": "HUMAN_REVIEW",
+        "phase": "SEMANTIC_GATE",
+        "detail": "问题范围超过当前局部自动修订条件。"
+      },
+      {
+        "created_at": "2026-11-06T12:22:30.271525+00:00",
+        "status": "RUNNING",
+        "phase": "TARGETED_REVISION",
+        "detail": "按用户要求使用新规则修订原稿；沿用原双词、角色、模型和6次/0.50美元上限，保留R0。"
+      },
+      {
+        "created_at": "2026-11-06T12:22:31.038591+00:00",
+        "status": "RUNNING",
+        "phase": "TARGETED_REVISION",
+        "detail": "正在修订明确问题页，完成后重新检查整篇正文。"
+      },
+      {
+        "created_at": "2026-11-06T12:22:56.752495+00:00",
+        "status": "RUNNING",
+        "phase": "SEMANTIC_GATE",
+        "detail": "R1 已保存，正在重新检查全部中英文页面。"
+      },
+      {
+        "created_at": "2026-11-06T12:23:46.194083+00:00",
+        "status": "COMPLETE",
+        "phase": "SEMANTIC_GATE",
+        "detail": "门禁通过；可选润色不触发自动改写。"
+      },
+      {
+        "created_at": "2026-11-07T03:30:28.270127+00:00",
+        "status": "COMPLETE",
+        "phase": "HUMAN_APPROVAL",
+        "detail": "用户点击确认入库，保留当前版本。"
+      }
+    ],
+    "selection": {
+      "stage_id": "PB-S1",
+      "stage_name": "生活任务与职业体验",
+      "vocabulary_version": "PB-VOCAB-1.0",
+      "rules_version": "PB-RANDOM-1.0",
+      "created_at": "2026-11-06T11:03:53.652417+00:00",
+      "words": [
+        {
+          "count_after": 1,
+          "count_before": 0,
+          "selection_reason": "PRIMARY_UNDER_THREE",
+          "semantic_type": "CONTENT",
+          "teaching_meaning": "宇航员",
+          "word": "astronaut",
+          "word_id": "PB-0030"
+        },
+        {
+          "count_after": 2,
+          "count_before": 1,
+          "selection_reason": "PRIMARY_UNDER_THREE",
+          "semantic_type": "NON_CONTENT",
+          "teaching_meaning": "乐于助人的；有帮助的",
+          "word": "helpful",
+          "word_id": "PB-0205"
+        }
+      ],
+      "status": "CONFIRMED",
+      "confirmed_at": "2026-11-06T11:03:57.335573+00:00"
+    },
+    "targets": [
+      {
+        "word_id": "PB-0030",
+        "word": "astronaut",
+        "primary_meaning": "宇航员",
+        "semantic_type": "CONTENT",
+        "meaning_source": "FROZEN_VOCABULARY_FIRST_LISTED_MEANING",
+        "accepted_forms": [
+          "astronaut",
+          "astronauts"
+        ]
+      },
+      {
+        "word_id": "PB-0205",
+        "word": "helpful",
+        "primary_meaning": "乐于助人的",
+        "semantic_type": "NON_CONTENT",
+        "meaning_source": "FROZEN_VOCABULARY_FIRST_LISTED_MEANING",
+        "accepted_forms": [
+          "helpful"
+        ]
+      }
+    ],
+    "stages": [
+      {
+        "content_count": 34,
+        "description": "家务、饮食、收纳、家庭活动与职业体验；全部17个小学词优先归入本阶段。",
+        "minimum_draws": 156,
+        "name": "生活任务与职业体验",
+        "non_content_count": 52,
+        "primary_count": 17,
+        "stage_id": "PB-S1",
+        "stage_no": 1,
+        "total": 86,
+        "draws": 12,
+        "confirmed": 12,
+        "covered": 2
+      },
+      {
+        "content_count": 30,
+        "description": "课堂、阅读、学习方法、运动比赛和团队任务。",
+        "minimum_draws": 162,
+        "name": "校园学习与运动挑战",
+        "non_content_count": 54,
+        "primary_count": 0,
+        "stage_id": "PB-S2",
+        "stage_no": 2,
+        "total": 84,
+        "draws": 1,
+        "confirmed": 1,
+        "covered": 0
+      },
+      {
+        "content_count": 32,
+        "description": "自然观察、户外探索、环境变化与环保行动。",
+        "minimum_draws": 153,
+        "name": "自然户外与环境守护",
+        "non_content_count": 51,
+        "primary_count": 0,
+        "stage_id": "PB-S3",
+        "stage_no": 3,
+        "total": 83,
+        "draws": 0,
+        "confirmed": 0,
+        "covered": 0
+      },
+      {
+        "content_count": 32,
+        "description": "模型制作、实验观察、科技工具、宇宙想象和发明挑战。",
+        "minimum_draws": 156,
+        "name": "科学发明与幻想探索",
+        "non_content_count": 52,
+        "primary_count": 0,
+        "stage_id": "PB-S4",
+        "stage_no": 4,
+        "total": 84,
+        "draws": 0,
+        "confirmed": 0,
+        "covered": 0
+      },
+      {
+        "content_count": 32,
+        "description": "旅行见闻、节庆、舞台、阅读创作、传统和历史体验。",
+        "minimum_draws": 156,
+        "name": "文化旅行与舞台庆典",
+        "non_content_count": 52,
+        "primary_count": 0,
+        "stage_id": "PB-S5",
+        "stage_no": 5,
+        "total": 84,
+        "draws": 0,
+        "confirmed": 0,
+        "covered": 0
+      },
+      {
+        "content_count": 32,
+        "description": "社区公共服务、职业劳动、身体健康、安全和公共生活。",
+        "minimum_draws": 156,
+        "name": "城市职业与公共安全",
+        "non_content_count": 52,
+        "primary_count": 0,
+        "stage_id": "PB-S6",
+        "stage_no": 6,
+        "total": 84,
+        "draws": 0,
+        "confirmed": 0,
+        "covered": 0
+      }
+    ],
+    "patches": [
+      {
+        "en": "Mum is helpful. She finds a big box and says, 'An astronaut needs a rocket!' She tapes it shut and draws windows on the side. Now it is a rocket!",
+        "page_number": 2,
+        "zh": "妈妈走过来，笑盈盈地说：'宇航员需要火箭呀！'她找来一个大纸箱，用胶带封好，还在侧面画了窗户。这就是火箭啦！"
+      },
+      {
+        "en": "Dad searches the kitchen and finds a big colander. He puts it on Alex's head. 'A helmet for the astronaut!' Alex looks through the little holes and thinks he looks so cool.",
+        "page_number": 3,
+        "zh": "爸爸翻遍厨房，找出一个不锈钢漏勺，往主角头上一扣：'宇航员的头盔！'主角透过小孔往外看，觉得自己酷极了。"
+      },
+      {
+        "en": "After landing, Alex pops out of the box and takes off his colander helmet. He says happily, 'Being an astronaut is so much fun, but the best part is—I have a helpful team!' The whole family claps.",
+        "page_number": 8,
+        "zh": "'着陆'之后，主角从纸箱里探出头，摘下漏勺头盔，开心地说：'当宇航员真好玩，但最棒的是——我有一个乐于助人的队伍！'全家人一起鼓起掌来。"
+      }
+    ],
+    "nodes": [
+      {
+        "port": "STORY_CREATION",
+        "attempt": 1,
+        "model": "qwen/qwen3.8-max-0902",
+        "status": "RECEIVED_JSON",
+        "started_utc": "2026-11-06T11:29:04.285494+00:00",
+        "usage": {
+          "prompt_tokens": 4113,
+          "completion_tokens": 1743,
+          "total_tokens": 5856,
+          "cost": 0.0151
+        },
+        "wire_compiler_version": "PB-TRIAL-WIRE-3.1",
+        "schema_policy_id": "PB-PROVIDER-SCHEMA-CORE-1.1"
+      },
+      {
+        "port": "SEMANTIC_GATE",
+        "attempt": 1,
+        "model": "qwen/qwen3.8-max-0902",
+        "status": "RECEIVED_JSON",
+        "started_utc": "2026-11-06T11:29:46.904496+00:00",
+        "usage": {
+          "prompt_tokens": 5738,
+          "completion_tokens": 2908,
+          "total_tokens": 8646,
+          "cost": 0.023548
+        },
+        "wire_compiler_version": "PB-TRIAL-WIRE-3.1",
+        "schema_policy_id": "PB-PROVIDER-SCHEMA-CORE-1.1"
+      },
+      {
+        "port": "TARGETED_REVISION",
+        "attempt": 1,
+        "model": "qwen/qwen3.8-max-0902",
+        "status": "RECEIVED_JSON",
+        "started_utc": "2026-11-06T12:22:31.070575+00:00",
+        "usage": {
+          "prompt_tokens": 3469,
+          "completion_tokens": 1222,
+          "total_tokens": 4691,
+          "cost": 0.01427
+        },
+        "wire_compiler_version": "PB-TRIAL-WIRE-3.1",
+        "schema_policy_id": "PB-PROVIDER-SCHEMA-CORE-1.1"
+      },
+      {
+        "port": "SEMANTIC_GATE",
+        "attempt": 2,
+        "model": "qwen/qwen3.8-max-0902",
+        "status": "RECEIVED_JSON",
+        "started_utc": "2026-11-06T12:22:56.775998+00:00",
+        "usage": {
+          "prompt_tokens": 5886,
+          "completion_tokens": 2516,
+          "total_tokens": 8402,
+          "cost": 0.026868
+        },
+        "wire_compiler_version": "PB-TRIAL-WIRE-3.1",
+        "schema_policy_id": "PB-PROVIDER-SCHEMA-CORE-1.1"
+      }
+    ],
+    "current_policy": {
+      "policy_id": "PB-DISPOSITION-1.1",
+      "max_auto_revisions": 2,
+      "human_categories": [
+        "IP",
+        "CHILD_SAFETY"
+      ],
+      "discard_is_non_destructive": true,
+      "automatic_regeneration_enabled": false,
+      "full_local_and_semantic_recheck_required": true,
+      "production_adapter_connected": true,
+      "model_execution_enabled": false,
+      "eligibility_basis": "ISSUE_SEVERITY_AND_REPAIR_SCOPE",
+      "page_count_does_not_block": true,
+      "issue_count_does_not_block": true
+    },
+    "library_stats": {
+      "runs": 26,
+      "passed": 15,
+      "approved": 13
+    },
+    "verification": {
+      "tests_passed": 246,
+      "changed_pages": [
+        2,
+        3,
+        8
+      ],
+      "all_chinese_unchanged": true,
+      "other_pages_unchanged": true,
+      "frozen_input_unchanged": true,
+      "selection_unchanged": true
+    },
+    "historical_approval": {
+      "as_of": "2026-11-06",
+      "approved": false
+    },
+    "ip_configured": true
+  }
+}

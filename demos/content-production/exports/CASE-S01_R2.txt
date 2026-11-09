@@ -1,0 +1,47 @@
+﻿第七个花盆后的醋
+The Vinegar Behind the Seventh Flower Pot
+CASE-S01 / R2
+历史入库时间：2026-11-03T09:22:23.443920Z
+修订后未重跑语义门禁及评分；R0评分仅供历史参考。
+AI生成展示样例，角色名称已匿名化。
+
+院子里的七个花盆
+阳光明媚的小院里，青石板铺成的花径旁摆着一排七个小花盆，盆沿沾着细碎的阳光，地面散落着几片被风吹落的花瓣；角色A抱着几瓶调料匆匆走过，角色B跟在旁边。
+
+B01 角色A抱着调料瓶站在七个花盆前，角色B指着花盆数数。
+角色B：一、二，这里有七个花盆。
+One, two, seven flower pots here.
+角色A：我带了醋，我们野餐用。
+I have vinegar for our picnic.
+
+B02 角色A踩到小石子摔了一跤，调料瓶滚得到处都是，醋瓶滚进花盆后面。
+角色A：糟了，我的醋去哪儿了？
+Oh no, where is my vinegar?
+角色B：它滚到那七个花盆附近了。
+It rolled near the seven pots.
+
+B03 角色A东翻西找，碰倒好几个花盆，还是没找到醋。
+角色A：这根本不是醋啊。
+This is not vinegar at all.
+角色B：我们按七个花盆一个个找吧。
+Let us check the seven pots one by one.
+第七个花盆的线索
+角色A和角色B挨个检查花盆，前六个后面都是别的调料，最后来到第七个花盆前，空气中飘着酸酸的味道。
+
+B04 他们走到第七个花盆前，角色B鼻子动了动，闻到酸味。
+角色B：这是第七个花盆啦。
+This is pot number seven.
+角色A：我闻到酸酸的味道，像醋。
+I smell something sour, like vinegar.
+
+B05 角色B伸手把第七个花盆轻轻挪开，后面果然滚着一瓶醋。
+角色B：你看！你的醋在这儿！
+Look! Here is your vinegar!
+角色A：七个花盆带我们找到它啦！
+Seven pots led us right to it!
+
+B06 配角端着凉拌菜跑过来，角色A把醋倒进去，大家一起开心品尝；吃完后角色A把空盘举得像花盆，角色B也学着举盘，两人相视笑起来。
+配角：加了醋的凉拌菜真好吃。
+The salad tastes great with vinegar.
+角色B：七个花盆，一次聪明的发现。
+Seven pots, one clever find.
