@@ -64,4 +64,9 @@
 @media(max-width:1360px){.design-intro{display:block}.design-entry-actions{justify-content:flex-start;max-width:none;margin-top:20px;padding:0}.design-brief,.design-role-list{gap:24px}.design-guide ol{gap:24px}}
 @media(max-width:1000px){.design-brief,.design-role-list{grid-template-columns:1fr;gap:28px}.design-guide ol{grid-template-columns:1fr;gap:22px}.design-decisions article{grid-template-columns:1fr;gap:4px}}
 @media(max-width:720px){.design-intro{margin-bottom:24px}.design-intro p{font-size:15px}.design-tabs{gap:24px;margin-bottom:26px}.design-tabs>a{font-size:15px;padding:10px 0 13px}.design-page h2{font-size:21px}.design-section-heading{display:block;margin-bottom:18px}.design-section-heading p{font-size:15px}.design-section-heading>.btn{margin-top:16px}.design-legend{gap:10px 18px;font-size:12px}.design-entry-actions{gap:10px}.design-entry-actions>.btn{padding-inline:14px;font-size:14px}.design-pan-controls{gap:8px}.design-pan-controls>span{flex-basis:100%}.design-page-links{gap:8px 20px}.design-guide{margin-top:32px;padding-top:26px}.design-brief{gap:22px;padding:24px 0}.design-role-list p,.design-decisions p,.design-brief dd{font-size:15px}.design-decisions{margin-top:32px;padding-top:26px}.example-topbar .topbar-inner{gap:8px}.example-topbar .top-tools{gap:6px}.example-topbar .top-tools .text-button{font-size:13px;padding-inline:3px}.workspace-kind{font-size:12px;padding:2px 5px}.top-tools .sample-entry{display:none}.sidebar .design-entry{margin-bottom:12px}.design-footer{font-size:12px}}
+@media (max-width: 720px) {
+  .design-diagram > .design-svg[data-diagram=research-flow] {
+    min-width: clamp(540px, 155%, 980px);
+  }
+}
 @media print{.design-entry-actions,.design-tabs,.design-pan-controls{display:none}.design-diagram{overflow:visible;border:0}.design-diagram>.design-svg{min-width:0!important;max-width:100%;width:100%}}
