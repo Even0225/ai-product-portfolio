@@ -24,9 +24,9 @@
       ['先发散，再聚焦','从宏观学科交叉出发，而不是先给出一个固定题目。','基础学科与可撤销的交叉视角 → 初步思路 → 方向和研究问题。','disciplines'],
       ['把文献变成框架材料','选完文献之后，需要明确它到底用于什么。','为文献写用途、借鉴说明与原文位置，再放进画布并连接到具体节点。','research/canvas'],
       ['让探索可以往返','读过文献、与模型讨论后，还要继续修改原来的思路。','选文献与优化框架反复切换，保留研究问题、节点、备注和方案草稿。','research/evidence'],
-      ['把下一步说清楚','保存完成后，仍需要知道接下来去哪里。','保存框架草稿之外，提供明确的“下一步：深化研究”，继续整理可编辑方案。','research/plan']
+      ['把下一步说清楚','框架保存后，提供清晰的方案入口。','保存框架草稿之外，提供明确的“下一步：深化研究”，继续整理可编辑方案。','research/plan']
     ];
-    return `<section class="design-section" aria-labelledby="design-section-title"><header class="design-section-heading"><div><h2 id="design-section-title">研究者保留判断，系统组织过程</h2><p>这个原型关注选题探索中的思路组织、资料使用和反复修改。它把产品流程做成可操作的界面，研究结论仍需要原始文献和实际研究支持。</p></div></header><dl class="design-brief"><div><dt>为谁设计</dt><dd>建筑、城乡规划与风景园林方向，正在探索交叉选题的研究生。</dd></div><div><dt>要解决什么</dt><dd>学科组合、读文献和画思路分散，读后修改与下一步衔接不清楚。</dd></div><div><dt>本项目中的产品工作</dt><dd>场景拆解、流程与信息架构、交互取舍，以及 AI 辅助原型实现与反馈迭代。</dd></div></dl><div class="design-role-list"><article><h3>研究者</h3><p>选择方向、阅读原文、标注文献用途，修改思路并决定下一步。</p><p class="design-role-output">留下：研究问题、借鉴说明、框架与方案。</p>${link('查看研究者的操作','research/canvas','roles')}</article><article><h3>系统</h3><p>组织候选方向、检索题录，保存图中的节点、连线、资料与版本。</p><p class="design-role-output">提供：可编辑画布、持续保存与导出。</p>${link('查看方案与保存','research/plan','roles')}</article><article><h3>外部模型（可选）</h3><p>帮助质疑关系、寻找替代解释，研究者把有用的新想法带回画布。</p><p class="design-role-output">当前：模型入口与上下文复制、下载。</p>${link('查看模型研讨入口所在页面','research/canvas','roles')}</article></div><section class="design-decisions"><h2>四个实际的产品取舍</h2>${decisions.map(([title,need,change,route])=>`<article><h3>${title}</h3><div><p class="design-decision-need">${need}</p><p>${change}</p>${link('进入对应页面',route,'roles')}</div></article>`).join('')}</section><details class="design-boundary"><summary>实现范围与当前边界</summary><p>目前是个人交互原型。学科组合与候选方向来自人工整理规则；在线文献检索使用 Crossref 题录，期刊指标保留各自年份和来源，缺失项不补造。</p><p>模型研讨暂未接入 API，提供外部入口和上下文导出。示例中的借鉴说明与研究方案是演示草稿，未被本原型实测或验证。本地保存和版本记录用于继续修改。</p><p>产品设计图是根据本轮已实现页面补充整理的展示材料（2026-11-07），不作为研究发生时的历史设计文档或上线效果证明。</p></details></section>`;
+    return `<section class="design-section" aria-labelledby="design-section-title"><header class="design-section-heading"><div><h2 id="design-section-title">研究者保留判断，系统组织过程</h2><p>这个原型把选题探索、资料整理和方案迭代串成可操作的流程，由研究者记录依据并作出判断。</p></div></header><dl class="design-brief"><div><dt>为谁设计</dt><dd>建筑、城乡规划与风景园林方向，正在探索交叉选题的研究生。</dd></div><div><dt>要解决什么</dt><dd>学科组合、读文献和画思路分散，读后修改与下一步衔接不清楚。</dd></div><div><dt>本项目中的产品工作</dt><dd>场景拆解、流程与信息架构、交互取舍，以及 AI 辅助原型实现与反馈迭代。</dd></div></dl><div class="design-role-list"><article><h3>研究者</h3><p>选择方向、阅读原文、标注文献用途，修改思路并决定下一步。</p><p class="design-role-output">留下：研究问题、借鉴说明、框架与方案。</p>${link('查看研究者的操作','research/canvas','roles')}</article><article><h3>系统</h3><p>组织候选方向、检索题录，保存图中的节点、连线、资料与版本。</p><p class="design-role-output">提供：可编辑画布、持续保存与导出。</p>${link('查看方案与保存','research/plan','roles')}</article><article><h3>外部模型（可选）</h3><p>帮助质疑关系、寻找替代解释，研究者把有用的新想法带回画布。</p><p class="design-role-output">当前：模型入口与上下文复制、下载。</p>${link('查看模型研讨入口所在页面','research/canvas','roles')}</article></div><section class="design-decisions"><h2>四个实际的产品取舍</h2>${decisions.map(([title,need,change,route])=>`<article><h3>${title}</h3><div><p class="design-decision-need">${need}</p><p>${change}</p>${link('进入对应页面',route,'roles')}</div></article>`).join('')}</section><details class="design-boundary"><summary>原型实现与资料来源</summary><p>学科组合与候选方向依据人工整理的规则生成。在线文献检索使用 Crossref 题录，期刊指标标注年份和来源。</p><p>模型研讨提供外部入口与上下文导出。示例展示文献用途记录和研究方案的整理过程，支持本地保存与版本管理。</p><p>产品设计图对应原型中的操作流程，可通过图中入口查看示例。</p></details></section>`;
   }
 
   function render(tab='flow',{hasResearch=false,exampleMode=false}={}){
@@ -57,14 +57,14 @@
   function example(state,D,G,M){
     Object.assign(state,{base:'planning',fields:['computing','psychology'],step:1,direction:'restoration',scope:'season',tab:'evidence',note:'这是独立的演示工作区，说明与方案均为示例草稿。'});
     const board=G.reconcile(null,D.bases.find(b=>b.id==='planning'),D.fields.filter(f=>state.fields.includes(f.id)));
-    const idea=G.addIdea(board,{x:660,y:270});idea.title='季节会改变关联吗？';idea.note='示例待检验：视觉环境与感知恢复性的关联可能随季节变化。';
+    const idea=G.addIdea(board,{x:660,y:270});idea.title='季节会改变关联吗？';idea.note='示例假设：视觉环境与感知恢复性的关联可能随季节变化。';
     const ctx={base:'planning',fieldIds:state.fields,core:true,combination:'城乡规划 × 计算机 × 环境心理学',directionName:'公共空间与恢复性体验',scopeName:'季节差异',question:D.scopes.find(s=>s.id==='season').question};
     const session=M.create(null,ctx,D.sources);M.chooseSource(session,session.sources.find(p=>p.id==='E01'),true);
-    const result=M.applyLiterature(session,board,{sourceId:'E01',useType:'method',title:'示例：跨季节比较方法',note:'示例借鉴：参考跨季节比较的切入点。具体量表、样本与模型需查阅全文后再决定。',locator:'Abstract（目前只读公开摘要）',targetId:idea.id});
+    const result=M.applyLiterature(session,board,{sourceId:'E01',useType:'method',title:'示例：跨季节比较方法',note:'示例借鉴：参考跨季节比较的切入点，从原文提取量表、样本与模型信息。',locator:'Abstract（目前只读公开摘要）',targetId:idea.id});
     const positions={base:[60,170],'field-computing':[360,40],'field-psychology':[360,270],[idea.id]:[660,270],[result.node.id]:[660,40]};
     for(const n of board.nodes){if(positions[n.id])[n.x,n.y]=positions[n.id];}
     G.connect(board,'field-computing',idea.id,'视觉要素的测量');G.connect(board,'field-psychology',idea.id,'感知恢复性的定义');board.view=null;
-    M.startPlan(session,board);Object.assign(session.plan,{hypotheses:'示例待检验：在寒冷与非寒冷季节，视觉环境要素与居民感知恢复性的关联可能不同。',methods:'示例方案：拟结合公共空间现场图像、感知问卷与跨季节比较。文献用途卡记录了当前想借鉴的思路，样本、量表与分析模型仍需补读全文并细化。',nextSteps:'补读原文方法与量表；确认可获得的跨季节资料；根据阅读和试测结果继续调整画布。'});
+    M.startPlan(session,board);Object.assign(session.plan,{hypotheses:'示例假设：在寒冷与非寒冷季节，视觉环境要素与居民感知恢复性的关联可能不同。',methods:'示例方案：拟结合公共空间现场图像、感知问卷与跨季节比较。通过文献用途卡记录借鉴思路，并整理样本、量表与分析模型。',nextSteps:'补读原文方法与量表；确认可获得的跨季节资料；根据阅读和试测结果继续调整画布。'});
     state.boards.planning=board;state.researchSessions.planning=session;return state;
   }
   window.AtlasProductDesign={tabs,validTab,caseLink,render,mount,example,restoreLeft};
